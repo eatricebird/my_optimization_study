@@ -10,10 +10,11 @@
 % x：最优解；
 % ite： 迭代多少次找到解
 % =======================================================================
-function [ite,xx] = steepest_descend(x0, d0, ite_max, eps)
+function [ite,xx] = steepest_descend(x0, ite_max, eps)
 ite_count = 0;
 x = x0;
-d = d0;
+% 初始化搜索方向
+d = [1 1]';
 
 while norm(d) > eps && ite_count < ite_max ,
   % 1-D line search for step
