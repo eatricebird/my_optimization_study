@@ -33,3 +33,92 @@ steepest_descend.m： 用steepest寻找最优解
 bfgs.m：用bfgs方法找最优化解  
 
 运行结果举例：
+
+```
+修改solve_equation.m
+% 初始化搜索起点  
+x0 = [10 7]';  
+% 初始化搜索方向  
+d0 = [-1 -1]'; 
+
+octave:2> solve_equation
+bfgs
+ite 10 times
+root is:
+   3.0000
+   2.0000
+minf(x) is
+   3.0934e-19
+steepest_descend
+ite 18 times
+root is:
+   3.0000
+   2.0000
+minf(x) is
+   7.7959e-12
+------------------------
+% 初始化搜索起点
+x0 = [-10 9]';
+% 初始化搜索方向
+d0 = [1 -1]';
+
+octave:3> solve_equation
+bfgs
+ite 8 times
+root is:
+  -2.8051
+   3.1313
+minf(x) is
+   9.9070e-17
+steepest_descend
+ite 16 times
+root is:
+  -2.8051
+   3.1313
+minf(x) is
+   7.1879e-12
+
+-----------------------------------------
+% 初始化搜索起点
+x0 = [-8 -8]';
+% 初始化搜索方向
+d0 = [1 1]';
+
+octave:5> solve_equation
+bfgs
+ite 5 times
+root is:
+  -3.7793
+  -3.2832
+minf(x) is
+   1.5337e-16
+steepest_descend
+ite 10 times
+root is:
+  -3.7793
+  -3.2832
+minf(x) is
+   2.0129e-11
+-----------------------------------------------
+% 初始化搜索起点
+x0 = [10 -8]';
+% 初始化搜索方向
+d0 = [-1 1]';
+
+octave:6> solve_equation
+bfgs
+ite 9 times
+root is:
+   3.5844
+  -1.8481
+minf(x) is
+   5.2296e-24
+steepest_descend
+ite 40 times
+root is:
+   3.5844
+  -1.8481
+minf(x) is
+   4.5900e-11
+   
+```
