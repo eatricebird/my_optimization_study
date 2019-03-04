@@ -39,18 +39,19 @@ bfgs.m：用bfgs方法找最优化解
 #### 运行结果举例：
 
 ```
-octave:18> solve_equation
-start point：
+
+octave:19> solve_equation
+=start point：=
    8
   -9
-bfgs
+=bfgs=
 ite 8 times
 root is:
    3.5844
   -1.8481
 minf(x) is
    1.4700e-21
-steepest_descend
+=steepest_descend=
 ite 31 times
 root is:
    3.0000
@@ -58,17 +59,17 @@ root is:
 minf(x) is
    1.0270e-10
 -----------------------
-start point：
+=start point：=
    8
    9
-bfgs
+=bfgs=
 ite 7 times
 root is:
    3.0000
    2.0000
 minf(x) is
    1.0849e-22
-steepest_descend
+=steepest_descend=
 ite 30 times
 root is:
    3.0000
@@ -76,7 +77,7 @@ root is:
 minf(x) is
    3.2070e-11
 -----------------------
-start point：
+=start point：=
   -8
   -9
 bfgs
@@ -86,7 +87,7 @@ root is:
   -3.2832
 minf(x) is
    1.5568e-15
-steepest_descend
+=steepest_descend=
 ite 20 times
 root is:
   -3.7793
@@ -94,7 +95,7 @@ root is:
 minf(x) is
    1.9514e-11
 -----------------------
-start point：
+=start point：=
   -8
    9
 bfgs
@@ -104,7 +105,7 @@ root is:
    3.1313
 minf(x) is
    5.6641e-23
-steepest_descend
+=steepest_descend=
 ite 15 times
 root is:
   -2.8051
