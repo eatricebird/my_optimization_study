@@ -5,12 +5,11 @@
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\left\{\begin{matrix}&space;x_1^2&plus;x_2=11\\&space;x_1&plus;x_2^2=7&space;\end{matrix}\right." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left\{\begin{matrix}&space;x_1^2&plus;x_2=11\\&space;x_1&plus;x_2^2=7&space;\end{matrix}\right." title="\left\{\begin{matrix} x_1^2+x_2=11\\ x_1+x_2^2=7 \end{matrix}\right." /></a>
 
-用消元法解得有4组解
-
+#### 如果不用最优化方法，可以用消元法解得有4组解
 <a href="https://www.codecogs.com/eqnedit.php?latex=x^{(1)}&space;=\begin{bmatrix}&space;3.5844\\&space;-1.8981&space;\end{bmatrix},&space;x^{(2)}&space;=\begin{bmatrix}&space;3\\&space;2&space;\end{bmatrix},&space;x^{(3)}&space;=\begin{bmatrix}&space;-3.7793\\&space;-3.2832&space;\end{bmatrix},&space;x^{(4)}&space;=\begin{bmatrix}&space;-2.8051\\&space;3.1313&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^{(1)}&space;=\begin{bmatrix}&space;3.5844\\&space;-1.8981&space;\end{bmatrix},&space;x^{(2)}&space;=\begin{bmatrix}&space;3\\&space;2&space;\end{bmatrix},&space;x^{(3)}&space;=\begin{bmatrix}&space;-3.7793\\&space;-3.2832&space;\end{bmatrix},&space;x^{(4)}&space;=\begin{bmatrix}&space;-2.8051\\&space;3.1313&space;\end{bmatrix}" title="x^{(1)} =\begin{bmatrix} 3.5844\\ -1.8981 \end{bmatrix}, x^{(2)} =\begin{bmatrix} 3\\ 2 \end{bmatrix}, x^{(3)} =\begin{bmatrix} -3.7793\\ -3.2832 \end{bmatrix}, x^{(4)} =\begin{bmatrix} -2.8051\\ 3.1313 \end{bmatrix}" /></a>
 
 
-#### 用最优化的方法解该方程组：  
+#### 对于复杂方程，消元法会很难做，所以用最优化的方法解该方程组：  
 因为是用数值解法解方程组，所以是求近视解。  
 分别使用了steepest，BFGS两种方法求最优化解。    
 
